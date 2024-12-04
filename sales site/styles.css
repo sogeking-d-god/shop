@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Apply styles to the body */
+body {
+    display: flex;             /* Enable flexbox */
+    justify-content: center;   /* Center horizontally */
+    flex-direction: column;
+    background-image: url("f.webp");
+     background-size: 100% ; 
+    background-color: black ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.centeredFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the h1 */
+h1 {
+    color: white;
+    margin-top: 20px;          /* Add a small margin from the top */
+    margin-bottom: 10px;       /* Optional: add space below the h1 */
+    text-align: center;        /* Center the text inside h1 */
+}
+
+/* Style for the gallery container */
+#gallery {
+    width: 80vw;               /* Width 80% of the viewport width */
+    height: 80vh;              /* Height 80% of the viewport height */
+    border: 1px solid black; 
+    margin-left: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+
+
+
+
+}
+.p{
+    height: 31%;
+    width: 23%;
+    display: flex;             /* Enable flexbox */
+    justify-content: center;   /* Center horizontally */
+    flex-direction: column;
+    padding: 10px;  
+
+
+}
+img{
+    height:100%;
+    
+}
